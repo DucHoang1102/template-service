@@ -9,4 +9,4 @@ TemplatesSchema.plugin(uniqueValidator, 'is already exist.');
 TemplatesSchema.methods.getDoSomething = function() {
 }
 
-mongoose.model('Templates', CustomersSchema);
+mongoose.model('Templates', TemplatesSchema);
